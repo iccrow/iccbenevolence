@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    margin: 0px;
+    height: 100%;
+}
+
+.parallax {
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .wtc-start {
+  	background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/luxurywatchblackbackground.png');
+  }
+  
+  .wtc-suit {
+  	height: 100%;
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/suitedmanwearingluxurywatch.png');
+  }
+
+  .wtc-info {
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/sketchedwatchcolorized.png');
+  }
+.cinematic-text {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+  }
+</style>
+</head>
+<body>
+
+<div class="parallax wtc-start cinematic-text">
+Luxido
+</div>
+
+<div class="wtc-suit cinematic-text">
+Timepieces that complement your apparrel.
+</div>
+
+<div class="parallax wtc-info cinematic-text"></div>
+
+</body>
+</html>
