@@ -7,6 +7,8 @@
 body, html {
     margin: 0px;
     height: 100%;
+    background-color: black;
+    user-select: none;
 }
 
 .parallax {
@@ -105,29 +107,28 @@ body, html {
     background-blend-mode: multiply;
   }
 
-  button {
+  .shop-button {
     color:#b27cc9;
     background-color: #69497788;
     border: 0px;
     border-radius: 20px;
     font-size: 2rem;
     width: 100%;
-    height: 100%;
+    height: 10%;
     padding: 5%;
     transition: 1s;
     position: relative;
   }
 
-  button:hover {
+  .shop-button:hover {
     background-color: #694977;
     transform: scale(1.025);
   }
 
-  button:active {
+  .shop-button:active {
     color: #b27cc922;
     background-color: #69497755;
     transform: scale(0.99);
-    transition: 0s;
   }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -159,7 +160,7 @@ BUILT WITH SPACE GRADE TITANIUM
 <div class="wtc-info cinematic-text">
 
     <!-- <div class="content-box"><p>DESIGNED BY NASA ENGINEERS</p><img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/rocketlaunch.jpg"></div> -->
-    <div class="content-box"><p>ENGINEERED TO LAST</p><br><br><br><br><button>SHOP NOW</button><!--<img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/time.webp"></-->
+    <div class="content-box"><p>ENGINEERED TO LAST</p><br><br><br><br><button class="shop-button">SHOP NOW</button><!--<img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/time.webp"></-->
   </div>
     <!-- <div class="content-box"><p>STYLED TO PERFECTION</p><img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/measuringwrist.jpg"></div> -->
 </div>
