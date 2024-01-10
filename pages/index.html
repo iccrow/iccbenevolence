@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/x-icon" href="../public-assets/images/favicon.png">
+<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/favicon.png">
 <style>
 body, html {
     margin: 0px;
@@ -29,6 +29,13 @@ body, html {
   
 
 
+  .wtc-tailor {
+
+      border: 2px;
+    border-color: #694977;
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/measuringwrist.png');
+  }
+
   .wtc-suit {
     height: 100%;
       border: 2px;
@@ -40,14 +47,24 @@ body, html {
     border: 2px;
     height: 100%;
     border-color: #694977;
-    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/sketchedwatchcolorized.png');
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/loopingclock.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+  }
+
+  .wtc-sketch {
+    border: 2px;
+
+    border-color: #694977;
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/sketchedwatchtransparent.png');
   }
 
   .wtc-usa {
     border: 2px;
     height: 100%;
     border-color: #694977;
-    background-image: url('../public-assets/images/usaflag.png');
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/usaflag.png');
   }
 
   .content-box {
@@ -87,6 +104,32 @@ body, html {
     background-color: #b27cc9;
     background-blend-mode: multiply;
   }
+
+  button {
+    color:#b27cc9;
+    background-color: #69497788;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    transition: 1s;
+    position: relative;
+  }
+
+  button:hover {
+    background-color: #694977;
+    transform: scale(1.025);
+  }
+
+  button:active {
+    color: #b27cc922;
+    background-color: #69497755;
+    transform: scale(0.99);
+    transition: 0s;
+  }
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
@@ -98,26 +141,27 @@ body, html {
 <body>
 
 <div class="parallax wtc-start cinematic-text">
-<img src="../public-assets/images/logo.png" style="height: 40%;">
+<img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/logo.png" style="height: 40%;">
 </div>
 
 <div class="wtc-suit cinematic-text">
   TIMEPIECES THAT COMPLETE YOUR FASHION
   </div>
 
+  <div class="parallax wtc-tailor cinematic-text">
+    TAILORED TO YOU
+  </div>
+
 <div class="parallax wtc-side cinematic-text">
-  BUILT WITH SPACE GRADE TITANIUM
+BUILT WITH SPACE GRADE TITANIUM
 </div>
 
 <div class="wtc-info cinematic-text">
 
-    <!-- <div class="content-box"><p>DESIGNED BY NASA ENGINEERS</p><img src="../public-assets/images/rocketlaunch.jpg"></div> -->
-    <div class="content-box"><p><br><br><br><br><br>ENGINEERED TO LAST<br><br><br><br><br><br></p><!--<img src="../public-assets/images/time.webp"></--></div>
-    <!-- <div class="content-box"><p>STYLED TO PERFECTION</p><img src="../public-assets/images/measuringwrist.jpg"></div> -->
-</div>
-
-<div class="parallax wtc-usa cinematic-text">
-  <div class="content-box"><p>RIGHT HERE IN THE USA</p><br><br><br><br><br><br><br><br><!--<img src="../public-assets/images/time.webp"></--></div>
+    <!-- <div class="content-box"><p>DESIGNED BY NASA ENGINEERS</p><img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/rocketlaunch.jpg"></div> -->
+    <div class="content-box"><p>ENGINEERED TO LAST</p><br><br><br><br><button>SHOP NOW</button><!--<img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/time.webp"></-->
+  </div>
+    <!-- <div class="content-box"><p>STYLED TO PERFECTION</p><img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/measuringwrist.jpg"></div> -->
 </div>
 
 </body>
