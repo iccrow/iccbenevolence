@@ -19,25 +19,52 @@ body, html {
   background-size: cover;
 }
   .wtc-start {
-  	background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/luxurywatchblackbackground.png');
+  	border: 2px;
+    border-color: #694977;
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/luxurywatchblackbackground.png');
   }
   
   .wtc-suit {
   	height: 100%;
+      border: 2px;
+    border-color: #694977;
     background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/suitedmanwearingluxurywatch.png');
   }
 
   .wtc-info {
+    border: 2px;
+    border-color: #694977;
     background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/sketchedwatchcolorized.png');
   }
+
+  .content-box {
+    background-color: #69497788;
+    border-radius: 10px;
+    margin: 5%;
+    min-height: 50%;
+    width: 30%;
+  }
+  .content-box > img {
+    width: 100%; 
+    height:20rem; 
+    object-fit: cover;
+    opacity: 50%;
+  }
+  .content-box > p {
+    font-size: 3rem; 
+    color: #b27cc9;
+  }
+
 .cinematic-text {
     color: white;
     text-align: center;
     font-size: 4rem;
-    font-family: "Times New Roman", Times, serif;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
   	justify-content: center;
   	align-items: center;
+    color: #553c5f;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
@@ -50,14 +77,18 @@ body, html {
 <body>
 
 <div class="parallax wtc-start cinematic-text">
-Luxido
+<img src="../public-assets/images/logo.png" style="height: 40%;">
 </div>
 
 <div class="wtc-suit cinematic-text">
-Timepieces that complement your apparrel.
+Timepieces that complement your fashion.
 </div>
 
-<div class="parallax wtc-info cinematic-text"></div>
+<div class="parallax wtc-info cinematic-text">
+    <div class="content-box"><p>Designed by rocket scientists.</p><img src="../public-assets/images/rocketlaunch.jpg"></div>
+    <div class="content-box"><p>Built to last.</p><img src="../public-assets/images/time.webp"></div>
+    <div class="content-box"><p>Styled to perfection.</p><img src="../public-assets/images/measuringwrist.jpg"></div>
+</div>
 
 </body>
 </html>
