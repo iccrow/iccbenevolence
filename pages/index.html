@@ -27,8 +27,10 @@ body, html {
     background-blend-mode: multiply;
   }
   
+
+
   .wtc-suit {
-  	height: 100%;
+    height: 100%;
       border: 2px;
     border-color: #694977;
     background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/suitedmanwearingluxurywatch.png');
@@ -37,9 +39,7 @@ body, html {
   .wtc-info {
     border: 2px;
     border-color: #694977;
-    background-color: #694977;
-    background-blend-mode: multiply;
-    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/watchside.png');
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/sketchedwatchcolorized.png');
   }
 
   .content-box {
@@ -61,7 +61,7 @@ body, html {
   }
 
 .cinematic-text {
-    color: white;
+
     text-align: center;
     font-size: 4rem;
     /* font-family: "Times New Roman", Times, serif; */
@@ -71,6 +71,14 @@ body, html {
   	align-items: center;
     color: #553c5f;
 }
+.wtc-side {
+    color: #b27cc9;
+  	border: 2px;
+    border-color: #694977;
+    background-image: url('https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/watchside.png');
+    background-color: #694977;
+    background-blend-mode: multiply;
+  }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
@@ -85,8 +93,8 @@ body, html {
 <img src="../public-assets/images/logo.png" style="height: 40%;">
 </div>
 
-<div class="wtc-suit cinematic-text">
-TIMEPIECES THAT COMPLETE YOUR FASHION
+<div class="parallax wtc-side cinematic-text">
+  MADE WITH SPACE GRADE TITANIUM
 </div>
 
 <div class="parallax wtc-info cinematic-text">
@@ -94,6 +102,10 @@ TIMEPIECES THAT COMPLETE YOUR FASHION
     <div class="content-box"><p>BUILT TO LAST<br><br><br><br><br>LIFETIME WARRANTY</p><!--<img src="../public-assets/images/time.webp"></--></div>
     <!-- <div class="content-box"><p>STYLED TO PERFECTION</p><img src="../public-assets/images/measuringwrist.jpg"></div> -->
 </div>
+
+<div class="wtc-suit cinematic-text">
+  TIMEPIECES THAT COMPLETE YOUR FASHION
+  </div>
 
 </body>
 </html>
