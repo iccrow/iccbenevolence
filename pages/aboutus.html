@@ -1,0 +1,254 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../public-assets/images/favicon.png">
+    <style>
+    body, html {
+        margin: 0px;
+        height: 100%;
+        background-color: black;
+        user-select: none;
+    }
+    
+    .parallax {
+      /* Full height */
+      height: 100%; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+      .wtc-start {
+          border: 2px;
+        border-color: #694977;
+        background-image: url('../public-assets/images/pickingupwatch.jpg');
+        background-color: #694977;
+        background-blend-mode: multiply;
+        background-size: cover;
+        font-size: 4rem;
+      }
+      
+    
+    
+      .wtc-dedicated {
+        height: 100%;
+        width:50%;
+          border: 2px;
+        border-color: #694977;
+        background-image: url('../public-assets/images/gloveholdingwatch.jpg');
+        background-size: cover;
+        background-color: #40294b;
+        background-blend-mode: multiply;
+        background-position: center;
+      }
+    
+      .wtc-info {
+          border: 2px;
+          height: 100%;
+        border-color: #694977;
+      }
+
+      .wtc-status {
+          border: 2px;
+          width:50%;
+          height:100%;
+        border-color: #694977;
+        background-size: cover;
+        background-image: url('../public-assets/images/statuswalk.jpg');
+        background-color: #694977;
+        background-position: center;
+        background-blend-mode: multiply;
+      }
+
+      .wtc-meeting {
+          border: 2px;
+          width:30%;
+          height:100%;
+        border-color: #694977;
+        background-size: cover;
+        background-image: url('../public-assets/images/meeting.jpg');
+        background-color: #694977;
+        background-position: center;
+        background-blend-mode: multiply;
+      }
+
+      .wtc-poker {
+          border: 2px;
+          width:40%;
+        border-color: #694977;
+        background-size: cover;
+        background-image: url('../public-assets/images/poker.png');
+        background-color: #694977;
+        background-blend-mode: multiply;
+      }
+
+      .wtc-car {
+          border: 2px;
+          width:30%;
+          height:100%;
+        border-color: #694977;
+        background-size: cover;
+        background-image: url('../public-assets/images/driving.jpg');
+        background-color: #694977;
+        background-position: center;
+        background-blend-mode: multiply;
+      }
+    
+      .wtc-shop {
+        border: 2px;
+        height: 100%;
+        border-color: #694977;
+        background-image: url('../public-assets/images/loopingclock.gif');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;
+      }
+    
+      .wtc-sketch {
+        border: 2px;
+    
+        border-color: #694977;
+        background-image: url('../public-assets/images/sketchedwatchtransparent.png');
+      }
+    
+      .wtc-usa {
+        border: 2px;
+        height: 100%;
+        border-color: #694977;
+        background-image: url('../public-assets/images/usaflag.png');
+      }
+    
+      .content-box {
+        background-color: #69497700;
+        border-radius: 10px;
+        margin: 5%;
+        min-height: 50%;
+        width: 50%;
+      }
+      .content-box > img {
+        width: 100%; 
+        height:20rem; 
+        object-fit: cover;
+        opacity: 50%;
+      }
+      .content-box > p {
+        font-size: 3rem; 
+        color: #b27cc9;
+      }
+    
+    .cinematic-text {
+    
+        text-align: center;
+        font-size: 3rem;
+        /* font-family: "Times New Roman", Times, serif; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+        color: #b27cc9;
+    }
+    .wtc-side {
+        color: #b27cc9;
+          border: 2px;
+        border-color: #694977;
+        background-image: url('../public-assets/images/watchside.png');
+        background-color: #b27cc9;
+        background-blend-mode: multiply;
+      }
+    
+      .shop-button {
+        color:#b27cc9;
+        background-color: #69497788;
+        border: 0px;
+        border-radius: 20px;
+        font-size: 2rem;
+        width: 60%;
+        height: 10%;
+        padding: 3%;
+        transition: 1s;
+        position: relative;
+      }
+    
+      .shop-button:hover {
+        background-color: #694977;
+        transform: scale(1.025);
+      }
+    
+      .shop-button:active {
+        color: #b27cc922;
+        background-color: #69497755;
+        transform: scale(0.99);
+      }
+    
+      .split {
+        margin:auto;
+        width:100%;
+      }
+
+      .wtc-split > div {
+        float: left;
+      }
+
+      .wtc-clear {
+        clear:both;
+      }
+
+      .wtc-separator {
+        height: 5px;
+        background-color: #694977;
+      }
+
+    /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+    /* @media only screen and (max-device-width: 1366px) {
+      .parallax {
+        background-attachment: scroll;
+      }
+      } */
+    </style>
+    </head>
+    <body>
+        <div class="parallax wtc-start cinematic-text">
+            ABOUT LUXIDO WATCHES
+        </div>
+        <div class="wtc-separator"></div>
+        <div class="wtc-split">
+            <div class="wtc-dedicated cinematic-text">
+                WE ARE DEDICATED TO DESIGN
+            </div>
+            <div class="wtc-status cinematic-text">
+                AND SYMBOLISM OF STATUS
+            </div>
+        </div>
+        <div class="wtc-clear"></div>
+        <div class="wtc-separator"></div>
+        <div class="wtc-split">
+            <div class="wtc-meeting cinematic-text">
+                A CREATION
+            </div>
+            <div class="wtc-poker parallax cinematic-text">
+                FOR
+            </div>
+            <div class="wtc-car cinematic-text">
+                EVERY OCCASION
+            </div>
+        </div>
+        <div class="wtc-clear"></div>
+        <div class="wtc-separator"></div>
+        <div class="wtc-info cinematic-text">
+            <div class="content-box"><p>
+            ONLY THE BEST<br>
+            <img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/logo.png" style="height: 40%; padding:5%">
+            <br>FOR THE BEST
+            </p>
+            </div>
+        </div>
+        <div class="wtc-separator"></div>
+        <div class="wtc-info cinematic-text">
+
+            <!-- <div class="content-box"><p>DESIGNED BY NASA ENGINEERS</p><img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/rocketlaunch.jpg"></div> -->
+            <div class="content-box"><p> WILL THE WORLD SEE YOUR SUCCESS?</p><br><br><br><button class="shop-button">SHOP NOW</button><!--<img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/time.webp"></-->
+          </div>
+            <!-- <div class="content-box"><p>STYLED TO PERFECTION</p><img src="https://raw.githubusercontent.com/iccrow/iccbenevolence/main/public-assets/images/measuringwrist.jpg"></div> -->
+        </div>
+    </body>
