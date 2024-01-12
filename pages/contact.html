@@ -40,10 +40,8 @@
       .wtc-start {
           border: 2px;
         border-color: #694977;
-        background-image: url('../public-assets/images/luxurywatchblackbackground.png');
-        background-color: #694977;
-        background-blend-mode: multiply;
-        background-size: cover;
+        position:-webkit-sticky;
+        height: 100%;
         font-size: 4rem;
       }
         
@@ -296,10 +294,12 @@
     </style>
     </head>
     <body>
-        <div class="parallax wtc-start cinematic-text">
+      <div style="position: unset;">
+        <div class="wtc-start cinematic-text">
             LUXIDO 849 SERIES
             <button class="shop-button">EXPLORE</button>
         </div>
+      </div>
         <div class="wtc-separator"></div>
         <div class="cinematic-text"><strong><br>THE 30 LINEUP</strong></div>
         <div class="wtc-split" style="height: 50%; padding: 2.5%;">
