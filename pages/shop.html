@@ -22,7 +22,7 @@
       .wtc-start {
           border: 2px;
         border-color: #694977;
-        background-image: url('../public-assets/images/pickingupwatch.jpg');
+        background-image: url('../public-assets/images/luxurywatchblackbackground.png');
         background-color: #694977;
         background-blend-mode: multiply;
         background-size: cover;
@@ -120,11 +120,11 @@
       }
     
       .content-box {
-        background-color: #69497700;
+        background-color: #694977;
         border-radius: 10px;
-        margin: 5%;
-        min-height: 50%;
-        width: 50%;
+        margin: 2.5%;
+        min-height: 25%;
+        width: 45%;
       }
       .content-box > img {
         width: 100%; 
@@ -163,9 +163,9 @@
         border: 0px;
         border-radius: 20px;
         font-size: 2rem;
-        width: 60%;
+        width: 20%;
         height: 10%;
-        padding: 3%;
+        margin-left: 15%;
         transition: 1s;
         position: relative;
       }
@@ -199,6 +199,14 @@
         background-color: #694977;
       }
 
+      .content-button {
+        transition: 1s;
+      }
+
+      .content-button:hover {
+        transform: scale(1.05);
+      }
+
     /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
     /* @media only screen and (max-device-width: 1366px) {
       .parallax {
@@ -209,16 +217,26 @@
     </head>
     <body>
         <div class="parallax wtc-start cinematic-text">
-            ABOUT LUXIDO WATCHES
+            LUXIDO 839 SERIES
+            <button class="shop-button">BUY</button>
         </div>
         <div class="wtc-separator"></div>
-        <div class="wtc-split">
-            <div class="wtc-dedicated cinematic-text">
+        <div class="wtc-split" style="height: 50%; padding: 2.5%;">
+            <div class="wtc-dedicated content-box content-button cinematic-text">
                 WE ARE DEDICATED TO DESIGN
             </div>
-            <div class="wtc-status cinematic-text">
+            <div class="wtc-status content-box content-button cinematic-text">
                 AND SYMBOLISM OF STATUS
             </div>
+        </div>
+        <div class="wtc-clear"></div>
+        <div class="wtc-split" style="height: 50%; padding: 2.5%;">
+          <div class="wtc-dedicated content-box content-button cinematic-text">
+            WE ARE DEDICATED TO DESIGN
+          </div>
+          <div class="wtc-status content-box content-button cinematic-text">
+            AND SYMBOLISM OF STATUS
+          </div>
         </div>
         <div class="wtc-clear"></div>
         <div class="wtc-separator"></div>
